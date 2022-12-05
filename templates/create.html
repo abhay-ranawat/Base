@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <style>
+        body {
+            padding-top: 20px;
+            padding-right: 50px;
+            padding-bottom: 25px;
+            padding-left: 50px;
+        }
+
+        .mainTitle {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <h1 class="mainTitle">Create new Bill</h1>
+    <form action="/create" method="post">
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Messers (M/S)</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Messers">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">GST Number</label>
+            <div class="col-sm-10">
+                <input class="form-control" id="inputEmail3" placeholder="GST Number">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Site Name</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="inputEmail3" placeholder="Site Name" rows="2"></textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Address</label>
+            <div class="col-sm-10">
+                <textarea class="form-control" id="inputEmail3" placeholder="Address" rows="2"></textarea>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Invoice No</label>
+                <input type="number" class="form-control" id="inputEmail4" placeholder="Invoice No">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Invoice Date</label>
+                <input type="date" class="form-control" id="inputPassword4">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Challan No</label>
+                <input type="number" class="form-control" id="inputEmail4" placeholder="Challan No">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Challan Date</label>
+                <input type="date" class="form-control" id="inputPassword4">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Order No</label>
+                <input type="number" class="form-control" id="inputEmail4" placeholder="Order No">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Order Date</label>
+                <input type="date" class="form-control" id="inputPassword4">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
